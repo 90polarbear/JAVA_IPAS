@@ -7,6 +7,7 @@ Which following is the correct way to create a dictionary in Python?
    (C) students = { 'name' : 'alice' ;  'score' : 60 }
    (D) students = { 'name' => 'alice' ,  'score' =>60 }
    (E) students = { 'name' : 'alice' , 'score' : 60 }
+   answer: E
 ```
 - 2
 ```python
@@ -20,6 +21,7 @@ What does the following Python program fragment do?
    (C) Calculate the sum of 3+4+5+6+…+9
    (D) Calculate the sum of 3+4+5+6+…+10
    (E) Calculate the sum of 0+2+4+6+…+10
+   answer: C
 ```
 - 3
 ```python
@@ -30,6 +32,7 @@ What is the output of this code in Python?
    (B) [ 'b' ]
    (C) [ 'a' ,  'b' ]
    (D) [ 'b' ,  'c' ,  'd' ,  'e' ]
+   answer: D
 ```
 
 - 4
