@@ -43,6 +43,7 @@ What is the output of this code in Python?
         L1.extend ( [7, 8, 9] )
         print(L1[0][1][1] + L1[2] )
    (A) 3  (B) 8  (C) 11  (D) 38  (E) None of these
+   answer: C
 ```
 
 - 5
@@ -57,6 +58,7 @@ What is the output of this code in python?
         x = r (x)
         print (x)
    (A) 2  (B) 4  (C) 6  (D) 12  (E) 24
+   answer: E
 ```
 
 - 6
@@ -72,6 +74,7 @@ Which of the following conditions correctly describes the output of this code in
    (C) first=[1, 2, 3, 4, 5], second=[1, 2, 3, 4, 5]
    (D) first=[1, 2, 3, 4, 5, 6], second=[1, 2, 3, 4, 5, 6]
    (E) None of these
+   answer: D
 ```
 - 7
 ```python
