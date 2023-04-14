@@ -1,0 +1,132 @@
+@charset "utf-8";
+/*視窗背景顏色*/
+body{
+    background: #fbf9cc url(../static/image/A.jpeg) repeat-X;
+    background-size: 1200px 170px;
+}
+/*頁首,導覽,頁尾的共通設定*/
+header,nav,footer{
+    text-align: center;
+}
+ul.menu li{
+    list-style-type: none;
+    display: inline-block;
+    width: 180px;
+    margin: 0 10px;
+}
+ul.menu a{
+    background: #6fbb9a;
+    padding: 10px;
+    display: block;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 150%;
+}
+ul.menu a:hover{
+    background: tomato; 
+}
+/*首頁標題設定*/
+h1{
+    width: 500px;
+    margin: 40px auto;
+    border: 3px solid #5C74B9;
+    padding: 30px;
+    background-color: burlywood;
+    color: #fff;
+    font-size: 250%;
+    text-align: center;
+    line-height: 1;
+    border-radius: 50%;
+    text-shadow: 10px 10px 50px rgb(195,123,108);
+    box-shadow: 0 0 10px rgb(92,185,173);
+    background-image: linear-gradient(to bottom,#6fbb9a,#4a9d79);
+    font-family: 'Grape Nuts',cursive; /*https://fonts.google.com/*/
+}
+p{
+    color: darkgoldenrod;
+}
+/*內容區塊邊框設定*/
+#contents {
+  width: 798px;
+  margin: 40px auto;
+  padding: 40px 80px;
+  border: 1px solid #f6bb9a;
+  background-color: #fff;
+}
+
+/*表格設定*/
+table.entryTable {
+  width: 100%;
+  margin-bottom: 30px;
+  border: 2px solid #008000;
+  border-collapse: collapse; 
+}
+.entryTable th,
+.entryTable td {
+  padding: 10px 20px;
+  border: 1px solid #008000;
+}
+.entryTable th {
+  width: 10em; 
+  background-color: #6EFFFF;
+  text-align: left;
+}
+.entryTable caption {
+  margin-bottom: 10px;
+}
+
+/*輸入表單設定*/
+.entryTable input[type="text"],
+.entryTable input[type="email"],
+.entryTable textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; 
+  font-size: 1em;
+}
+.entryTable input[type="text"]:focus,
+.entryTable input[type="email"]:focus,
+.entryTable textarea:focus {
+  background-color: #ffffee;
+  outline: none;
+  border-left: 5px solid #ffa700;
+}
+
+/*滑鼠指標樣式*/
+label,
+input,
+textarea,
+select {
+  cursor: pointer; 
+}
+
+/*按鈕設定*/
+.entryBtns {
+  text-align: center;
+}
+
+/*按鈕基本樣式*/
+.entryBtns input {
+  width: 200px;
+  margin: 0 10px;
+  padding: 10px;
+  background: #fff;
+  border: 2px solid #f6bb9e;
+  border-radius: 10px;
+  font-size: 1em;
+  -webkit-appearance: none;
+}
+
+/*送出按鈕的樣式*/
+.entryBtns input[type="submit"] {
+  background: #fadccc;
+}
+
+/*滑鼠移到按鈕時*/
+.entryBtns input:hover {
+  opacity: 0.7;
+}
+
+

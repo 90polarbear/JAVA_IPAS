@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="zh-TW">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Travel Notes</title>
+        <meta name="keywords" content="旅行,挪威,紐西蘭,住宿,美食,風景">
+        <meta name="description" content="旅行日記。">
+        <!--load css file-->
+        <link href="../static/style-survey.css" rel="stylesheet" media="all">
+        <!--media;screen,print,speech,all-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <h1>Travel Notes</h1>
+            <p>分享旅行故事吧~~</p>
+        </header>
+
+        <main id="contents">
+            <form id="entryForm" action="#" method="post">
+              <p><strong><span class="require">*</span>必填項目。</strong></p>
+
+              <table class="entryTable">
+                    <caption>旅行資料</caption>
+                    <tr>
+                      <th>旅行地點 *</th>
+                      <td><input type="text" name="location" placeholder="挪威" required autofocus></td>
+                    </tr>
+                  
+                    <tr>
+                      <th>人數 *</th>
+                      <td>
+                        <select name="people" required>
+                          <option value="" selected>請選擇</option>
+                          <option value="0">1人</option>
+                          <option value="1">2〜4人</option>
+                          <option value="2">5〜7人</option>
+                          <option value="3">8〜10人</option>
+                          <option value="4">10人以上</option>
+                          <option value="5">不明</option>
+                        </select>
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>旅行方式 *</th>
+                      <td>
+                        <input type="radio" name="sex" id="male" value="自助旅行" checked required>
+                        <label for="male">自助旅行</label>
+                        <input type="radio" name="sex" id="female" value="跟團旅遊" required>
+                        <label for="female">跟團旅遊</label>
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>旅行目的</th>
+                      <td>
+                        <input type="checkbox" name="purpose" id="pur1" value="蜜月">
+                        <label for="pur1">蜜月</label>
+                        <input type="checkbox" name="purpose" id="pur2" value="放鬆">
+                        <label for="pur2">放鬆</label>
+                        <input type="checkbox" name="purpose" id="pur3" value="冒險">
+                        <label for="pur3">冒險</label>
+                        <input type="checkbox" name="purpose" id="pur4" value="工作">
+                        <label for="pur4">工作</label>
+                        <input type="checkbox" name="purpose" id="pur5" value="其它">
+                        <label for="pur5">其它</label>
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>照片 *</th>
+                      <td>
+                          <input type="file" name="photo" required>
+                      </td>
+                    </tr>
+              </table>
+                
+              <table class="entryTable">
+                    <caption>旅者資料</caption>
+                    <tr>
+                      <th>姓名 *</th>
+                      <td>
+                        <input type="text" name="name" placeholder="北極熊" required>
+                        <small>※可用暱稱</small>
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>E-Mail *</th>
+                      <td>
+                        <input type="email" name="email" placeholder="landscape@polarbear.com" required>
+                        <small>※請輸入半形文字</small>
+                      </td>
+                    </tr>
+                  
+                    <tr>
+                      <th>留言</th>
+                      <td><textarea name="comment" rows="4" cols="40"></textarea></td>
+                    </tr>
+              </table>
+                
+              <div class="entryBtns">
+                <input type="reset" value="清除重填">
+                <input type="submit" value="送出">
+              </div>
+            </form>
+        </main>
+
+        <footer>
+          <p><small>Copyright © KOMA-NATSU Web All Rights Reserved.</small></p>
+        </footer>
+            
+    </body>
+</html>

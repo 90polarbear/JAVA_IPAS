@@ -1,0 +1,168 @@
+@charset "utf-8";
+/*視窗背景顏色*/
+body{
+    background: #fbf9cc ;
+    background-size: 1200px 170px;
+}
+/*頁首,導覽,頁尾的共通設定*/
+header,nav,footer{
+    text-align: center;
+}
+ul.menu li{
+    list-style-type: none;
+    display: inline-block;
+    width: 180px;
+    margin: 0 10px;
+}
+ul.menu a{
+    background: #6fbb9a;
+    padding: 10px;
+    display: block;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 150%;
+}
+ul.menu a:hover{
+    background: tomato; 
+}
+/*首頁標題設定*/
+h1{
+    width: 500px;
+    margin: 40px auto;
+    border: 3px solid #5C74B9;
+    padding: 30px;
+    background-color: burlywood;
+    color: #fff;
+    font-size: 250%;
+    text-align: center;
+    line-height: 1;
+    border-radius: 50%;
+    text-shadow: 10px 10px 50px rgb(195,123,108);
+    box-shadow: 0 0 10px rgb(92,185,173);
+    background-image: linear-gradient(to bottom,#6fbb9a,#4a9d79);
+    font-family: 'Grape Nuts',cursive; /*https://fonts.google.com/*/
+}
+p{
+    color: darkgoldenrod;
+}
+/*次要標題設定*/
+.h2{
+    margin-bottom: 30px;
+    border: 4px dotted #94c8b1;
+    border-left: 10px solid #d0e35b;
+    padding: 10px;
+    color: cornflowerblue ;
+}
+h3.h-sub{
+    padding: 10px;
+    background-color: #fbf9cc;
+    color: cornflowerblue;
+    border-radius: 10px;
+    box-shadow: 0 0 5px 2px #ffd0ad inset;
+}
+/*小標題設定*/
+.h-sub span{
+    font-weight: normal;
+}
+main#contents{
+    width: 1200px;
+    margin: 40px auto;
+    padding: 40px 80px;
+    border: 2px solid blue;
+    background-color: #fff;
+}
+.more{
+    text-align: right;
+}
+.more::after{
+    content: url(../static/image/ico_arrow.png);
+    margin-left: 3px;
+    vertical-align: middle;
+}
+#contents > section + section {
+  margin-top: 80px;
+}
+/*文繞圖設定*/
+.imgLeft{
+    float: left;
+    margin-right: 20px;
+}
+.imgRight{
+    float: right;
+    margin-left: 20px;
+}
+.clear{
+    clear: both;
+}
+.clearfix::after{
+    content: "";
+    display:block;
+    clear: both;
+}
+/*變更圖片四個角的弧度*/
+img.img-round{
+    border-radius: 10%;
+}
+
+.sidebar {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* initially 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: green; /* Black: #111*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
+}
+
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  color: red;
+  margin-left: 50px;
+}
+
+.openbtn {
+  font-size: 60px;
+  cursor:pointer;
+  background-color: #fbf9cc; /*#111; /* black*/
+  color: green;
+  padding: 10px 15px;
+  border: none;    
+}
+
+.openbtn:hover {
+  background-color: #6fbb9a; /*#444;*/
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+.objectLeft{
+    float: left;
+    margin-right: 20px;
+}
