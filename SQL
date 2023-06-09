@@ -5,3 +5,9 @@ create table  eaxm1 (
   `pearl` VARCHAR(75) NOT NULL,
   `number` INT NOT NULL,
   PRIMARY KEY (`id`));
+  
+  
+  
+  
+  mysql -u sarah -p00000
+  use testdb;
